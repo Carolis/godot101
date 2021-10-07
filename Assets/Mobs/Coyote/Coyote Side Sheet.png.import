@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Atlas.png-3cdb8c5fbb53b3bc350d4f4e9d722079.stex"
+path="res://.import/Coyote Side Sheet.png-a68e36510cd6ce955f88925d9cc5eb93.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/Atlas.png"
-dest_files=[ "res://.import/Atlas.png-3cdb8c5fbb53b3bc350d4f4e9d722079.stex" ]
+source_file="res://Assets/Mobs/Coyote/Coyote Side Sheet.png"
+dest_files=[ "res://.import/Coyote Side Sheet.png-a68e36510cd6ce955f88925d9cc5eb93.stex" ]
 
 [params]
 
