@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/atlas.png-9cef794873c0a0de8290cc9de4fefdff.stex"
+path="res://.import/verde1.png-25a43f390c199394fab9fc724581e00d.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Assets/atlas.png"
-dest_files=[ "res://.import/atlas.png-9cef794873c0a0de8290cc9de4fefdff.stex" ]
+source_file="res://Assets/NPC's/green patrol/verde1.png"
+dest_files=[ "res://.import/verde1.png-25a43f390c199394fab9fc724581e00d.stex" ]
 
 [params]
 
