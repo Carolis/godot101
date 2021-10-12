@@ -14,6 +14,16 @@ config/name="!TheBestPlatformerEver"
 run/main_scene="res://World.tscn"
 config/icon="res://icon.png"
 
+[display]
+
+window/size/width=640
+window/size/height=360
+window/size/test_width=1280
+window/size/test_height=720
+window/per_pixel_transparency/enabled=true
+window/stretch/mode="2d"
+window/stretch/aspect="expand"
+
 [physics]
 
 common/enable_pause_aware_picking=true
