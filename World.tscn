@@ -23,17 +23,19 @@ tracks/0/keys = {
 [node name="World" type="Node"]
 
 [node name="Player" type="KinematicBody2D" parent="."]
-position = Vector2( 162.425, 12.3882 )
+position = Vector2( 93.6625, 15.0207 )
 script = ExtResource( 2 )
 __meta__ = {
 "_edit_group_": true
 }
 
 [node name="Sprite" type="Sprite" parent="Player"]
+position = Vector2( 28.461, 26.0893 )
+scale = Vector2( 2.18588, 2.18588 )
 texture = ExtResource( 1 )
 hframes = 14
 vframes = 5
-frame = 15
+frame = 16
 
 [node name="AnimationPlayer" type="AnimationPlayer" parent="Player"]
 anims/Walk_Side = SubResource( 1 )
