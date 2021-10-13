@@ -1,10 +1,10 @@
 [gd_scene load_steps=5 format=2]
 
-[ext_resource path="res://GenericPlatformerTileSet.tres" type="TileSet" id=1]
+[ext_resource path="res://GenericTileSet.tres" type="TileSet" id=1]
 [ext_resource path="res://KinematicBody2D.gd" type="Script" id=2]
-[ext_resource path="res://Assets/Player/run/anim5.png" type="Texture" id=4]
+[ext_resource path="res://Assets/Player/SpriteSheet_player.png" type="Texture" id=3]
 
-[sub_resource type="RectangleShape2D" id=2]
+[sub_resource type="RectangleShape2D" id=1]
 extents = Vector2( 18, 32 )
 
 [node name="World" type="Node"]
@@ -20,14 +20,16 @@ __meta__ = {
 [node name="Sprite" type="Sprite" parent="Player"]
 position = Vector2( 28.461, 26.0893 )
 scale = Vector2( 2.18588, 2.18588 )
-texture = ExtResource( 4 )
+texture = ExtResource( 3 )
+hframes = 8
+vframes = 7
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="Player"]
-position = Vector2( 30, 28 )
-shape = SubResource( 2 )
+position = Vector2( 30, 40 )
+shape = SubResource( 1 )
 
 [node name="TileMap" type="TileMap" parent="."]
 tile_set = ExtResource( 1 )
-cell_size = Vector2( 16, 16 )
+cell_size = Vector2( 16, 8 )
 format = 1
-tile_data = PoolIntArray( 196620, 1, 0, 196621, 0, 0, 196622, 2, 0, 196623, 2, 0, 196624, 1, 0, 196625, 0, 0, 196626, 1, 0, 196627, 1, 0, 196628, 0, 0, 196629, 1, 0, 262168, 9, 0, 262169, 9, 0, 655370, 9, 0, 655386, 9, 0, 655387, 9, 0, 720898, 9, 0, 720908, 9, 0, 720909, 9, 0, 720922, 9, 0, 720924, 9, 0, 786434, 9, 0, 786435, 9, 0, 786436, 9, 0, 786437, 9, 0, 786438, 9, 0, 786439, 9, 0, 786440, 9, 0, 786441, 9, 0, 786444, 9, 0, 786445, 9, 0, 786458, 9, 0, 786459, 9, 0, 786460, 9, 0, 786462, 9, 0, 786463, 9, 0, 851980, 9, 0, 851981, 9, 0, 851982, 9, 0, 851983, 9, 0, 851984, 9, 0, 851991, 9, 0, 851992, 9, 0, 917516, 9, 0, 917517, 9, 0, 917518, 9, 0, 917519, 9, 0, 917522, 9, 0, 917523, 9, 0, 917524, 9, 0, 917525, 9, 0 )
+tile_data = PoolIntArray( 458755, 0, 0, 458756, 1, 0, 458757, 1, 0, 458758, 1, 0, 458759, 1, 0, 458760, 2, 0, 458761, 2, 0, 458762, 2, 0, 458763, 3, 0, 458764, 4, 0, 458765, 6, 0 )
